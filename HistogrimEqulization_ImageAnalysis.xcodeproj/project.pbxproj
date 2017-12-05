@@ -59,7 +59,8 @@
 		4D149F681F853826005E3468 /* libopencv_superres.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_superres.3.3.0.dylib; path = ../../../../usr/local/lib/libopencv_superres.3.3.0.dylib; sourceTree = "<group>"; };
 		4D149F691F853826005E3468 /* libopencv_core.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.3.0.dylib; path = ../../../../usr/local/lib/libopencv_core.3.3.0.dylib; sourceTree = "<group>"; };
 		4D149F6A1F853827005E3468 /* libopencv_imgcodecs.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.3.3.0.dylib; path = ../../../../usr/local/lib/libopencv_imgcodecs.3.3.0.dylib; sourceTree = "<group>"; };
-		4D149F7C1F86449C005E3468 /* function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
+		4D46AB931FD517A500E562A8 /* readRawfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readRawfile.h; sourceTree = "<group>"; };
+		4D46AC071FD735A500E562A8 /* HistogramEqu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistogramEqu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				4D149F531F852764005E3468 /* main.cpp */,
-				4D149F7C1F86449C005E3468 /* function.h */,
+				4D46AB931FD517A500E562A8 /* readRawfile.h */,
+				4D46AC071FD735A500E562A8 /* HistogramEqu.h */,
 			);
 			name = HistogrimEqualization_ImageAnalysis;
 			path = HistogrimEqulization_ImageAnalysis;
