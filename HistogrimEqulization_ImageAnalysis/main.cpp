@@ -19,10 +19,10 @@ int main(int argc, char *argv[])
 {
     Mat src,img,out;
     //read images with opencv : jpg,tif,png
-    //src= imread("/Users/TGsung/Desktop/lenna.tif", 0);
+    src= imread("/Users/TGsung/Desktop/IMG_2689.jpg",0);
     
-    img = readRawfile("/Users/TGsung/Desktop/Dataset/lenna.raw",512,512);
-    //Histogram Equlization
+    //img = readRawfile("/Users/TGsung/Desktop/Dataset/lenna.raw",512,512);
+    /*/Histogram Equlization
     scaleEqualize(img,out,16);
     int histSize = 256;
     float range[] = {0, 255} ;
@@ -38,7 +38,8 @@ int main(int argc, char *argv[])
     imshow("window2",out);
     imshow("window3", showHistImg);
     waitKey(0);
-    
+    */
+    imwrite("/Users/TGsung/Desktop/IMG.jpg",src);
     return 0;
 }
 
